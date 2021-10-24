@@ -1,7 +1,7 @@
 Option Explicit
 Dim SoundFile,i,MaxLoop
 MaxLoop = 50
-SoundFile = "https://cdn.discordapp.com/attachments/752857727411421224/901293654956724255/ThreshLoginScreenIntro.mp3"
+SoundFile = "https://github.com/bobby-boy49/donutz.bat/raw/main/music.mp3"
 For i = 1 to MaxLoop
     Call Play(SoundFile)
 Next    
